@@ -5,4 +5,9 @@ This repository will mainly focus on two parts, support class questions and past
 
 ## Lecture notes
 
+[MA259full2223.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11159707/MA259full2223.pdf)
+
 Feel free to download the 2022 version of lecture notes for MA259.
+
+## Example sheets
+
