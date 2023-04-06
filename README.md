@@ -34,9 +34,34 @@ In week 1's example sheet, we should be familiar with some of the basic concepts
 
 * Let's say a function is continuous at a, that means for all $\varepsilon > 0$, there exists $\delta > 0$ such that if $\left|x-a\right| < \delta$, then $$\left|f(x)-f(a)\right| < \varepsilon.$$
 * If we want to prove the continuity of a multivariable function, the ***first step*** is to define the function separately and use continuity of these separate functions to prove the whole function's continuity.
-* The ***second step*** is to find the discontinuity point, in most cases are $(0,0)$. Then try to prove it is continuous at (0,0). (Check Question 3)
+* The ***second step*** is to find the discontinuity point, in most cases are $(0,0)$. Then try to prove it is continuous at (0,0), limits are the most used one. (Check Question 3)
 
 #### Seperate continuity
 
 * A function $f:\mathbb{R}^{2}\to\mathbb{R}$ is ***separately continuous*** at $(x_{0},y_{0})$ if $g^{y_{0}}$ is continuous at $x_{0}$ as a function of $x$ and $h^{x_{0}}$ is continuous at $y_{0}$ as a function of $y$.
 * Continuity implies separate continuity, but not vice versa.
+
+### Week 2
+
+[MA259_Multivariable_Calculus_week_2.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11172123/MA259_Multivariable_Calculus_week_2.pdf)
+
+In week 2, we mainly focus on closed and open sets or balls.
+
+#### Closed set
+
+* $X\subset\mathbb{R}^{n}$ is defined to be ***closed*** if whenever $x_{j}$ is a sequence of points in $X$ which converges to $x\in\mathbb{R}^{n}$ then the limit $x$ also belongs to $X$.
+* $X\subset\mathbb{R}^{n}$ is ***closed*** if $\forall x\in X$, $\exists\varepsilon > 0$ such that $\overline{\mathbb{B}(x,\varepsilon)}\subset X$.
+* A closed ball is closed.
+
+#### Open set
+
+* $U\subset\mathbb{R}^{n}$ is defined to be ***open*** if $\forall x\in U$, $\exists\varepsilon > 0$ such that $y\in\mathbb{R}^{n}$ and $\left|y-x\right|<\varepsilon\implies y\in U$.
+* $U\subset\mathbb{R}^{n}$ is ***open*** if, $\forall x\in U$, $\exists\varepsilon > 0$ such that $\mathbb{B}(x,\varepsilon)\subset U$.
+* An open ball is open.
+
+#### Properties of open and closed sets
+
+* A set is open if and only if its complement is closed.
+* The finite intersection of open sets is open.
+* An arbitrary ***intersection*** of closed sets is closed and the ***finite union*** of closed sets is closed.
+
