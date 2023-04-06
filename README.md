@@ -79,4 +79,16 @@ In week 3's example sheet, we mainly focus on norms.
 
 #### Frobenius norm
 
-* Frobenius norm $\left\|\cdot\right\|_F$ is defined as
+* Frobenius norm $\left\|\cdot\right\|_F$ is defined as $$\left\|(a _{ij})\right\|_F = \left(\sum _{i=1}^{k}\sum _{j=1}^{n}  a^{2} _{ij}\right) ^{1/2}.$$
+
+#### Operator norm
+
+* The operator norm is defined by $$\left\|A\right\| = \sup _{x\in\mathbb{R}^{n}\setminus\set{0}} \frac{|Ax|}{|x|}.$$
+
+#### Comparison between Frobenius and Operator norm
+
+* Suppose that $\mu(A) = (a_{ij})$, we have $$\frac{1}{\sqrt{n}}\left\|\mu(a)\right\|_F \leq\left\|A\right\|\leq\left|\mu(A)\right\|_F.$$
+
+#### Cauchy Sequence
+
+* A sequence $x_{1}, x_{2}, x_{3},...$ of real numbers is called Cauchy sequence if for every positive real number $\varepsilon$, there is a positive integer $N$ such that for all natural numbers $m,n > N$, $$\left|x_{m}-x_{n}\right| < \varepsilon.$$
