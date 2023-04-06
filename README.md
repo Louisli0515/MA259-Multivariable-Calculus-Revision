@@ -72,4 +72,11 @@ In week 2, we mainly focus on closed and open sets or balls.
 
 In week 3's example sheet, we mainly focus on norms.
 
-#### Fro
+#### Sequentially compact subset
+
+* $K\subset\mathbb{R}^{n}$ is ***sequentially compact*** if every sequence $x_{j}$ in $K$ has a convergent subsequence $x_{jl}$ whose limit is in $K$.
+* $K\subset\mathbb{R}^{n}$ is ***sequentially compact*** if and only if $K$ is closed and bounded.
+
+#### Frobenius norm
+
+* Frobenius norm $\left\|\cdot\right\|_F$ is defined as
