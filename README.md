@@ -64,4 +64,12 @@ In week 2, we mainly focus on closed and open sets or balls.
 * A set is open if and only if its complement is closed.
 * The finite intersection of open sets is open.
 * An arbitrary ***intersection*** of closed sets is closed and the ***finite union*** of closed sets is closed.
+* If $f:\mathbb{R}^{n}\to\mathbb{R}^{k}$ is continuous at all points of $\mathbb{R}^{n}$, then for all open subsets $V$ of $\mathbb{R}^{k}$, $f^{-1}(V)$ is open; for all closed subsets $\mathcal{F}$ of $\mathbb{R}^{k}$, $f^{-1}(\mathcal{F})$ is closed.
 
+### Week 3
+
+[MA259_Multivariable_Calculus_week_3.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11174816/MA259_Multivariable_Calculus_week_3.pdf)
+
+In week 3's example sheet, we mainly focus on norms.
+
+#### Fro
