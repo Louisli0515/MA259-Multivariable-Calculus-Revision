@@ -98,3 +98,20 @@ In week 3's example sheet, we mainly focus on norms.
 [MA259_Multivariable_Calculus_week_4.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11179897/MA259_Multivariable_Calculus_week_4.pdf)
 
 In week 4's example sheet, we mainly focus on derivatives.
+
+#### Frechet Derivative
+
+* If we extend the derivative to functions $f:\mathbb{R}^{n}\to\mathbb{R}^{k}$, we can define the Frechet Derivative as if $f$ is differentiable at $x\in U$, if there exists $A\in L(\mathbb{R}^{n},\mathbb{R}^{k})$ such that $$\lim_{h\to 0}\frac{\left|f(x+h)-f(x)-f'(x)h\right|}{\left|h\right|} = 0.$$
+
+#### Directional derivative
+
+* The ***directional derivative*** $\partial_{v}f(x)$ is defined by $$\partial_{v}f(x) = \frac{\mathrm{d}}{\mathrm{d}t}g_{x,v}(t)| _{t=0} = \frac{\mathrm{d}}{\mathrm{d}t}f(x+tv)| _{t=0}.$$
+* It is denoted by $Df(x)$.
+
+#### Relation between the derivative and directional derivative
+
+* If $Df(x)$ exists then $\partial_{v}f(x)$ exists for all $v\in\mathbb{R}^{n}$ and $\partial_{v}f(x) = Df(x)v$. In particular, if $f$ is differentiable at $x$, then $\partial_{v}f(x)$ is linear in v, i.e. $$\partial_{av+bw}f(x) = a\partial_{v}f(x)+b\partial_{w}f(x), \forall a,b\in\mathbb{R}, v,w\in\mathbb{R}^{n}.$$
+
+#### Gradient
+
+* The ***gradient*** at $x$, $\nabla f(x)$, of a scalar valued function $f:U\to\mathbb{R}$ is defined to be the column vector 
