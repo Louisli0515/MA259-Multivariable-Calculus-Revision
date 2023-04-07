@@ -121,4 +121,4 @@ In week 4's example sheet, we mainly focus on derivatives.
 ```
 
 * A ***linear functional*** on $\mathbb{R}^{n}$ is identified with the vector $\nabla f(x)$: $$(\partial f(x))(v) = (\nabla f(x))\cdot v.$$
-* 
+* If $f:U\to\mathbb{R}^{k}$ is ***differentiable*** at $x\in U$ and $h\in\mathbb{R}^{n}$, then $$Df(x)h = \partial f(x)h.$$
