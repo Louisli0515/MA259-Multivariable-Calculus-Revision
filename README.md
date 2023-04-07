@@ -115,3 +115,10 @@ In week 4's example sheet, we mainly focus on derivatives.
 #### Gradient
 
 * The ***gradient*** at $x$, $\nabla f(x)$, of a scalar valued function $f:U\to\mathbb{R}$ is defined to be the column vector 
+
+```math
+\nabla f(x) = \begin{bmatrix} \partial_1 f(x) \\ \vdots\\ \partial_n f(x) \end{bmatrix}.
+```
+
+* A ***linear functional*** on $\mathbb{R}^{n}$ is identified with the vector $\nabla f(x)$: $$(\partial f(x))(v) = (\nabla f(x))\cdot v.$$
+* 
