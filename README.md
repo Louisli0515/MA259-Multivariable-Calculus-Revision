@@ -92,3 +92,9 @@ In week 3's example sheet, we mainly focus on norms.
 #### Cauchy Sequence
 
 * A sequence $x_{1}, x_{2}, x_{3},...$ of real numbers is called Cauchy sequence if for every positive real number $\varepsilon$, there is a positive integer $N$ such that for all natural numbers $m,n > N$, $$\left|x_{m}-x_{n}\right| < \varepsilon.$$
+
+### Week 4
+
+[MA259_Multivariable_Calculus_week_4.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11179897/MA259_Multivariable_Calculus_week_4.pdf)
+
+In week 4's example sheet, we mainly focus on derivatives.
