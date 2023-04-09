@@ -136,3 +136,25 @@ In week 5's example sheet, we take a look at gradients, Jacobian matrix and revi
 ```math
 \mathbf{J} = \begin{bmatrix} \frac{\partial f_{1}}{\partial x_{1}} & \cdots & \frac{\partial f_{1}}{\partial x_{n}}\\ \vdots & \ddots & \vdots\\ \frac{\partial f_{m}}{\partial x_{1}} & \cdots & \frac{\partial f_{m}}{\partial x_{n}} \end{bmatrix}.
 ```
+
+#### Chain Rule
+
+* Let $U$ and $V$ be open subsets of $\mathbb{R}^{n}$ and $\mathbb{R}^{k}$ respectively. Suppose that $f:U\to\mathbb{R}^{k}$ is differentiable at $x\in U$ and that $f(x)\in V$. Suppose that $g:V\to\mathbb{R}^{m}$ is differentiable at $f(x)$. Then $g\circ f:\mathbb{R}^{n}\to\mathbb{R}^{m}$ is differentiable at $x$ and $$D(g \circ  f)(x) = Dg(f(x)) \circ Df(x).$$
+* With ***Jacobian matrix***, the chain rule can be written as $$\partial g\circ f(x) = \partial g(f(x))\cdot\partial f(x).$$
+* With ***gradient***, the chain rule can be written as $$\nabla g\circ f(x) = g'(f(x))\nabla f(x).$$
+
+#### Inverse of a 2 $\times$ 2 matrix
+
+* Recall that if
+ ```math
+A = \begin{bmatrix} a & b \\ c & d \end{bmatrix},
+```
+then its inverse is given by 
+ ```math
+A^{-1} = \frac{1}{ad-bc}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}.
+```
+
+#### Revision of MA136
+
+* ***Polar Coordinates*** is given by $$x = r\cos\theta, y = r\sin\theta,\,\mathrm{d}A = r\mathrm{d}r\mathrm{d}\theta.$$
+* ***Spherical Coordinates*** is given by $$x = r\sin\varphi\cos\theta, y = r\sin\varphi\sin\theta, z= \cos\varphi,\,\mathrm{d}V = r^{2}\sin\varphi\mathrm{d}r\mathrm{d}\theta\mathrm{d}\varphi.$$
