@@ -122,3 +122,17 @@ In week 4's example sheet, we mainly focus on derivatives.
 
 * A ***linear functional*** on $\mathbb{R}^{n}$ is identified with the vector $\nabla f(x)$: $$(\partial f(x))(v) = (\nabla f(x))\cdot v.$$
 * If $f:U\to\mathbb{R}^{k}$ is ***differentiable*** at $x\in U$ and $h\in\mathbb{R}^{n}$, then $$Df(x)h = \partial f(x)h.$$
+
+### Week 5
+
+[MA259_Multivariable_Calculus_week_5.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11185175/MA259_Multivariable_Calculus_week_5.pdf)
+
+In week 5's example sheet, we take a look at gradients, Jacobian matrix and revision on MA136 Geometry and Motion.
+
+#### Jacobian matrix
+
+* Suppose $\mathbf{f}: \mathbb{R}^{n}\to\mathbb{R}^{m}$ is a function such that each of its first-order partial derivatives exist on $\mathbb{R}^{n}$. This function takes a point $\mathbf{x}\in\mathbb{R}^{n}$ as input and produces the vector $f(x)\in\mathbb{R}^{m}$ as output. Then the Jacobian matrix of $\mathbf{f}$ is defined to be an $m\times m$ matrix, denoted by $\mathbf{J}$ as follows:
+
+```math
+\mathbf{J} = \begin{bmatrix} \frac{\partial f_{1}}{\partial x_{1}} & \cdots & \frac{\partial f_{1}}{\partial x_{n}}\\ \vdots & \ddots & \vdots\\ \frac{\partial f_{m}}{\partial x_{1}} & \cdots & \frac{\partial f_{m}}{\partial x_{n}} \end{bmatrix}.
+```
