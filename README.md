@@ -182,3 +182,8 @@ In week 6's example sheet, we mainly focus on differentiation and integration.
 
 * Let $f:U\to\mathbb{R}^{k}$ is ***Lipschitz*** continuous on $U$ if $\exists M > 0$ such that $$\left|f(x)-f(y)\right|\leq M\left|x-y\right|,\forall x,y\in U.$$
 * The ***Lipshitz constant*** $M$ of $f$ is then defined by $$M = \sup_{x,y\in U, x\ne y}\frac{\left|f(x)-f(y)\right|}{\left|x-y\right|}.$$
+
+#### Line integral and tangential line integral
+
+* Given a parameterised smooth curve $C = \set{\mathbf{r}(t)|t\in[a,b]}$ and $f(\mathbf{r})$ defined on $C$, the line integral of $f$ along $C$ is $$\int_{C}f(\mathbf{r})\mathrm{d}s = \int_{a}^{b}f(\mathbf{r}(t))\left|\mathbf{r}'(t)\right|\mathrm{d}t.$$
+* The ***tangential line integral*** of $\underline{v}$ along $C_{pq}$ is defined as the integral of the tangential component of $\underline{v}$: $$\int_{0}^{L}\underline{v}(\rho(s))\cdot\dot{\rho}(s)\mathrm{d}s.$$
