@@ -161,3 +161,13 @@ A^{-1} = \frac{1}{ad-bc}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}.
 * ***Spherical Coordinates*** is given by $$x = r\sin\varphi\cos\theta, y = r\sin\varphi\sin\theta, z= \cos\varphi,\,\mathrm{d}V = r^{2}\sin\varphi\mathrm{d}r\mathrm{d}\theta\mathrm{d}\varphi.$$
 * The ***Normal*** of a surface is given by $$N(u,v) = r_{u}\times r_{v}.$$
 * ***Flux across a surface***. When calculating the flux across a surface, we need to find $n$, the unit normal to $S$ first and $\mathrm{d}A$, which is the element of area on $S$, then we have $$n(u,v) = \frac{r_{u}\times r_{v}}{\left|r_{u}\times r_{v}\right|},\quad \mathrm{d}A = \left|r_{u}\times r_{v}\right|\mathrm{d}u\mathrm{d}v.$$ Therefore, we have $$\text{Flux} = \int\int_{U}\underline{v}(r(u,v))\cdot\left(r_{u}\times r_{v}\right)\mathrm{d}u\mathrm{d}v.$$
+
+### Week 6
+
+[MA259_Multivariable_Calculus_week_6.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11189847/MA259_Multivariable_Calculus_week_6.pdf)
+
+In week 6's example sheet, we mainly focus on differentiation and integration.
+
+#### Some dot product properties
+
+* Suppose $A$ is a matrix, $x$ and $v$ are both vectors, then $$Av\cdot Ax+Ax\cdot Av = 2(A^{T}Ax)\cdot v.$$
