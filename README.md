@@ -178,6 +178,12 @@ In week 6's example sheet, we mainly focus on differentiation and integration.
 * If $f$ is a continuous function on the closed interval $[a,b]$ and differentiable on the open interval $(a,b)$, then there exists a $c\in(a,b)$ such that $$f'(c) = \frac{f(b)-f(a)}{b-a}.$$
 * Let $U\subset\mathbb{R}^{n}$ be convex and suppose that $f\in C^{1}(U,\mathbb{R}^{k})$ satisfies $\left\|\partial f(x)\right\|\leq M, \forall x\in U$ for some $M\geq 0$. Then $$\left|f(x)-f(y)\right|\leq M\left|x-y\right|.$$
 
+#### Rolle's Theorem
+
+* If a function $f$ is continuous on the closed interval $[a,b]$ and differentiable on the open interval $(a,b)$ such that $f(a) = f(b)$, then $f'(x)=0$ for some $x\in[a,b].$
+
+***NOTE***: Rolles' Theorem (and therefore the Mean Value Theorem) cannot be extended to a vector-valued (i.e. $\mathbb{R}^{k}$-valued, $k\geq 2$) functions of one variable.
+
 #### Lipschitz continuity
 
 * Let $f:U\to\mathbb{R}^{k}$ is ***Lipschitz*** continuous on $U$ if $\exists M > 0$ such that $$\left|f(x)-f(y)\right|\leq M\left|x-y\right|,\forall x,y\in U.$$
@@ -187,3 +193,5 @@ In week 6's example sheet, we mainly focus on differentiation and integration.
 
 * Given a parameterised smooth curve $C = \set{\mathbf{r}(t)|t\in[a,b]}$ and $f(\mathbf{r})$ defined on $C$, the line integral of $f$ along $C$ is $$\int_{C}f(\mathbf{r})\mathrm{d}s = \int_{a}^{b}f(\mathbf{r}(t))\left|\mathbf{r}'(t)\right|\mathrm{d}t.$$
 * The ***tangential line integral*** of $\underline{v}$ along $C_{pq}$ is defined as the integral of the tangential component of $\underline{v}$: $$\int_{0}^{L}\underline{v}(\rho(s))\cdot\dot{\rho}(s)\mathrm{d}s.$$
+
+
