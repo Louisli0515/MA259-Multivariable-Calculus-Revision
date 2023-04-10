@@ -194,4 +194,11 @@ In week 6's example sheet, we mainly focus on differentiation and integration.
 * Given a parameterised smooth curve $C = \set{\mathbf{r}(t)|t\in[a,b]}$ and $f(\mathbf{r})$ defined on $C$, the line integral of $f$ along $C$ is $$\int_{C}f(\mathbf{r})\mathrm{d}s = \int_{a}^{b}f(\mathbf{r}(t))\left|\mathbf{r}'(t)\right|\mathrm{d}t.$$
 * The ***tangential line integral*** of $\underline{v}$ along $C_{pq}$ is defined as the integral of the tangential component of $\underline{v}$: $$\int_{0}^{L}\underline{v}(\rho(s))\cdot\dot{\rho}(s)\mathrm{d}s.$$
 
+### Week 7
+
+In week 7's example sheet, there are more revision we should look at.
+
+#### Curl and Green's Theorem
+
+* The ***curl*** of a planar vector field $\underline{v}(x,y)\to(a(x,y),b(x,y)):U\to\mathbb{R}^{2}$ is defined to be the function $$\frac{\partial b}{\partial x}-\frac{\partial a}{\partial y}$$ and it is denoted by $\text{curl}\underline{v}$.
 
