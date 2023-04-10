@@ -170,4 +170,15 @@ In week 6's example sheet, we mainly focus on differentiation and integration.
 
 #### Some dot product properties
 
-* Suppose $A$ is a matrix, $x$ and $v$ are both vectors, then $$Av\cdot Ax+Ax\cdot Av = 2(A^{T}Ax)\cdot v.$$
+* Suppose $A$ is a $m\times n$ matrix, $x$ and $v$ are both $n\times 1$ vectors, then $$Av\cdot Ax+Ax\cdot Av = 2(A^{T}Ax)\cdot v.$$
+* Similarly, $$x\cdot A^{T}Ax = (Ax)\cdot(Ax).$$
+
+#### Mean Value Theorem and Mean Value Inequality
+
+* If $f$ is a continuous function on the closed interval $[a,b]$ and differentiable on the open interval $(a,b)$, then there exists a $c\in(a,b)$ such that $$f'(c) = \frac{f(b)-f(a)}{b-a}.$$
+* Let $U\subset\mathbb{R}^{n}$ be convex and suppose that $f\in C^{1}(U,\mathbb{R}^{k})$ satisfies $\left\|\partial f(x)\right\|\leq M, \forall x\in U$ for some $M\geq 0$. Then $$\left|f(x)-f(y)\right|\leq M\left|x-y\right|.$$
+
+#### Lipschitz continuity
+
+* Let $f:U\to\mathbb{R}^{k}$ is ***Lipschitz*** continuous on $U$ if $\exists M > 0$ such that $$\left|f(x)-f(y)\right|\leq M\left|x-y\right|,\forall x,y\in U.$$
+* The ***Lipshitz constant*** $M$ of $f$ is then defined by $$M = \sup_{x,y\in U, x\ne y}\frac{\left|f(x)-f(y)\right|}{\left|x-y\right|}.$$
