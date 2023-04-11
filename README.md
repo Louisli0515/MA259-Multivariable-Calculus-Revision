@@ -230,6 +230,10 @@ In week 8's example sheet, it continues to focus more on integration and diverge
 
 #### Critical points, local maxima nad minima, saddles
 
+* $p\in U$ is called a ***critical point*** if $f\in C^{1}(U)$ if $\nabla f(p) = 0$.
+* If $f$ has a ***local maximum or minimum*** at $p$, then $\nabla f(p) = 0.$
+
+#### Some linear algebra about symmetric matrices
 A symmetric matrix $P$ is 
 
 * ***positive definite*** if $x^{T}Px = x\cdot Px > 0, \forall x\in\mathbb{R}^{n}\setminus\set{0}$.
@@ -237,3 +241,21 @@ A symmetric matrix $P$ is
 * ***negative definite*** if $x^{T}Px < 0, \forall x\in\mathbb{R}^{n}\setminus\set{0}.$
 * ***negative semidefinite*** if $x^{T}Px \leq 0, \forall x\in\mathbb{R}^{n}.$
 * ***indefinite*** if $x^{T}Px$ is neither positive semidefinite nor negative semidefinite, i.e. $\exists x,y\in\mathbb{R}^{n}$ such that $x^{T}Px > 0$ and $y^{T}Py< 0$.
+
+#### Second order derivative test
+
+Suppose that $f\in C^{2}(U)$ and that $\nabla f(p) = 0$ for some $p\in U$.
+
+* If Hess $f(p)$ is ***positive definite***, then $f$ has a ***strict local minimum*** at $p$.
+* If Hess $f(p)$ is ***negative definite***, then $f$ has a ***strict local maximum*** at $p$.
+* If Hess $f(p)$ is ***indefinite***, then $f$ has neither a ***local minimum nor a local maximum*** at $p$ and $p$ is called a saddle point.
+* If Hess $f(p)$ is ***positive or negative semidefinite but not definite*** then the test is inconclusive, i.e. $f$ may have a ***minimum*** at $p$, or a ***maximum*** or a ***saddle point***.
+
+#### Definitiveness test for $2\times 2$ symmetric matrices
+
+A $2\times 2$ symmetric matrix $P$ is 
+
+* ***positive definite*** if $\det(P) = ac-b^{2} > 0$ and $a > 0$ or $c > 0$.
+* ***negative definite*** if $\det(P) > 0$ and $a < 0$ or $c < 0$.
+* ***indefinite*** if $\det(P) < 0.$
+* ***semidefinite*** if $\det(P) = 0.$
