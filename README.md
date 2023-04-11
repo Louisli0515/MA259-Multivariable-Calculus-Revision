@@ -214,3 +214,10 @@ In week 7's example sheet, there are more revision we should look at.
 * Divergence Theorem for ***a planar region***. Let $\Omega$ be a region in $\mathbb{R}^{2}$ and let $\underline{v}:U\to\mathbb{R}^{2}$ be a ***continuously differentiable planar vector field*** on $U$, which contains $\bar{\Omega}$. Then $$\iint_{\Omega}\nabla\cdot\underline{v}(x,y)\mathrm{d}A = \int_{\partial\Omega}\underline{v}\cdot n_{+}\mathrm{d}s,$$ where $n_{+}$ is the ***unit outward normal*** to $\Omega$.
 * Divergence Theorem for regions in ***R3***. Let $\Omega$ be a region in $\mathbb{R}^{3}$ and let $\underline{v}:U\to\mathbb{R}^{3}$ be a $C^{1}$ vector field on $U$, which contains $\bar{\Omega}$. Then $$\iiint_{\Omega}\nabla\cdot\underline{v}(x,y,z)\mathrm{d}V = \iint_{\partial\Omega}\underline{v}\cdot n_{+}\mathrm{d}A,$$ where $n_{+}$ is the ***unit outward normal*** to $\Omega$ and if $\underline{v}(x,y,z) = (v_{1}(x,y,z),v_{2}(x,y,z),v_{3}(x,y,z)),$ then $$\nabla\cdot\underline{v}(x,y,z) = \frac{\partial v_{1}}{\partial x}(x,y,z) + \frac{\partial v_{2}}{\partial y}(x,y,z) + \frac{\partial v_{3}}{\partial z}(x,y,z).$$
 
+### Week 8
+
+[MA259_Multivariable_Calculus_week_8.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11205353/MA259_Multivariable_Calculus_week_8.pdf)
+
+In week 8's example sheet, it continues to focus more on integration and divergence theorem.
+
+
