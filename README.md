@@ -220,4 +220,20 @@ In week 7's example sheet, there are more revision we should look at.
 
 In week 8's example sheet, it continues to focus more on integration and divergence theorem.
 
+#### The Hessain matrix
 
+* Suppose $f:\mathbb{R}^{n}\to\mathbb{R}$ is a function taking as input a vector $\mathbf{x}\in\mathbb{R}^{n}$ and outputting a scalar $f(\mathbf{x})\in\mathbb{R}$. If all second-order partial derivatives of $f$ exist, then the Hessian matrix $\mathbf{H}$ of $f$ is a square $n\times n$ matrix, usually defined and arranged as 
+
+ ```math
+\mathbf{H}_{f} = \begin{bmatrix} \frac{\partial^{2}f}{\partial x_{1}^{2}} & \frac{\partial^{2}f}{\partial x_{1}\partial x_{2}} & \cdots & \frac{\partial^{2}f}{\partial x_{1}\partial x_{n}} \\ \frac{\partial^{2}f}{\partial x_{2}\partial x_{1}} & \frac{\partial^{2}f}{\partial x_{2}^{2}} & \cdots & \frac{\partial^{2}f}{\partial x_{2}\partial x_{n}}\\ \vdots & \vdots& \ddots & \vdots\\ \frac{\partial^{2}f}{\partial x_{n}\partial x_{1}} & \frac{\partial^{2} f}{\partial x_{n}\partial x_{2}} & \cdots & \frac{\partial^{2}f}{\partial x_{n}^{2}} \end{bmatrix}.
+```
+
+#### Critical points, local maxima nad minima, saddles
+
+A symmetric matrix $P$ is 
+
+* ***positive definite*** if $x^{T}Px = x\cdot Px > 0, \forall x\in\mathbb{R}^{n}\setminus\set{0}$.
+* ***positive semidefinite*** if $x^{T}Px \geq 0, \forall x\in\mathbb{R}^{n}$.
+* ***negative definite*** if $x^{T}Px < 0, \forall x\in\mathbb{R}^{n}\setminus\set{0}.$
+* ***negative semidefinite*** if $x^{T}Px \leq 0, \forall x\in\mathbb{R}^{n}.$
+* ***indefinite*** if $x^{T}Px$ is neither positive semidefinite nor negative semidefinite, i.e. $\exists x,y\in\mathbb{R}^{n}$ such that $x^{T}Px > 0$ and $y^{T}Py< 0$.
