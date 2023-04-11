@@ -210,7 +210,7 @@ In week 7's example sheet, there are more revision we should look at.
 
 #### Divergence
 
-* The divergence of a vector field $\underline{v}(x) = (v_{1}(x_{1},...,x_{n}),...,v_{n}(x_{1},...,x_{n})) is denoted by both $\text{div}\underline{v}$ and $\nabla\cdot\underline{v}$ and is defined by $$\nabla\cdot\underline{v} = \frac{\partial v_{1}}{\partial x_{1}}+...+\frac{\partial v_{n}}{\partial x_{n}}.$$
+* The divergence of a vector field $\underline{v}(x) = (v_{1}(x_{1},...,x_{n}),...,v_{n}(x_{1},...,x_{n}))$ is denoted by both $\text{div}\underline{v}$ and $\nabla\cdot\underline{v}$ and is defined by $$\nabla\cdot\underline{v} = \frac{\partial v_{1}}{\partial x_{1}}+...+\frac{\partial v_{n}}{\partial x_{n}}.$$
 * Divergence Theorem for ***a planar region***. Let $\Omega$ be a region in $\mathbb{R}^{2}$ and let $\underline{v}:U\to\mathbb{R}^{2}$ be a ***continuously differentiable planar vector field*** on $U$, which contains $\bar{\Omega}$. Then $$\iint_{\Omega}\nabla\cdot\underline{v}(x,y)\mathrm{d}A = \int_{\partial\Omega}\underline{v}\cdot n_{+}\mathrm{d}s,$$ where $n_{+}$ is the ***unit outward normal*** to $\Omega$.
 * Divergence Theorem for regions in ***R3***. Let $\Omega$ be a region in $\mathbb{R}^{3}$ and let $\underline{v}:U\to\mathbb{R}^{3}$ be a $C^{1}$ vector field on $U$, which contains $\bar{\Omega}$. Then $$\iiint_{\Omega}\nabla\cdot\underline{v}(x,y,z)\mathrm{d}V = \iint_{\partial\Omega}\underline{v}\cdot n_{+}\mathrm{d}A,$$ where $n_{+}$ is the ***unit outward normal*** to $\Omega$ and if $\underline{v}(x,y,z) = (v_{1}(x,y,z),v_{2}(x,y,z),v_{3}(x,y,z)),$ then $$\nabla\cdot\underline{v}(x,y,z) = \frac{\partial v_{1}}{\partial x}(x,y,z) + \frac{\partial v_{2}}{\partial y}(x,y,z) + \frac{\partial v_{3}}{\partial z}(x,y,z).$$
 
