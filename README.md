@@ -3,6 +3,59 @@ My own notes and revisions about MA259, including example sheets and past papars
 
 This repository will mainly focus on two parts, support class questions and past papers. I will provide the pdf made by myself so there will not be any problems about license.
 
+- [MA259-Multivariable-Calculus-Revision](#ma259-multivariable-calculus-revision)
+  * [Lecture notes](#lecture-notes)
+  * [Example sheets](#example-sheets)
+    + [Week 1](#week-1)
+      - [Norm comparisons](#norm-comparisons)
+      - [Cauchy-Schwarz inequality](#cauchy-schwarz-inequality)
+      - [Convergence definition](#convergence-definition)
+      - [Continuity definition](#continuity-definition)
+      - [Seperate continuity](#seperate-continuity)
+    + [Week 2](#week-2)
+      - [Closed set](#closed-set)
+      - [Open set](#open-set)
+      - [Properties of open and closed sets](#properties-of-open-and-closed-sets)
+    + [Week 3](#week-3)
+      - [Sequentially compact subset](#sequentially-compact-subset)
+      - [Frobenius norm](#frobenius-norm)
+      - [Operator norm](#operator-norm)
+      - [Comparison between Frobenius and Operator norm](#comparison-between-frobenius-and-operator-norm)
+      - [Cauchy Sequence](#cauchy-sequence)
+    + [Week 4](#week-4)
+      - [Frechet Derivative](#frechet-derivative)
+      - [Directional derivative](#directional-derivative)
+      - [Relation between the derivative and directional derivative](#relation-between-the-derivative-and-directional-derivative)
+      - [Gradient](#gradient)
+    + [Week 5](#week-5)
+      - [Jacobian matrix](#jacobian-matrix)
+      - [Chain Rule](#chain-rule)
+      - [Inverse of a 2 $\times$ 2 matrix](#inverse-of-a-2---times--2-matrix)
+      - [Revision of MA136](#revision-of-ma136)
+    + [Week 6](#week-6)
+      - [Some dot product properties](#some-dot-product-properties)
+      - [Mean Value Theorem and Mean Value Inequality](#mean-value-theorem-and-mean-value-inequality)
+      - [Rolle's Theorem](#rolle-s-theorem)
+      - [Lipschitz continuity](#lipschitz-continuity)
+      - [Line integral and tangential line integral](#line-integral-and-tangential-line-integral)
+      - [Closed curves](#closed-curves)
+    + [Week 7](#week-7)
+      - [Curl and Green's Theorem](#curl-and-green-s-theorem)
+      - [Divergence](#divergence)
+    + [Week 8](#week-8)
+      - [The Hessain matrix](#the-hessain-matrix)
+      - [Critical points, local maxima nad minima, saddles](#critical-points--local-maxima-nad-minima--saddles)
+      - [Some linear algebra about symmetric matrices](#some-linear-algebra-about-symmetric-matrices)
+      - [Second order derivative test](#second-order-derivative-test)
+      - [Definitiveness test for $2\times 2$ symmetric matrices](#definitiveness-test-for--2-times-2--symmetric-matrices)
+    + [Week 9](#week-9)
+      - [Gradient Fields](#gradient-fields)
+      - [Conservative Vector Fields](#conservative-vector-fields)
+      - [Scalar potential of a conservative vector field](#scalar-potential-of-a-conservative-vector-field)
+      - [Laplacian and Harmonic Functions](#laplacian-and-harmonic-functions)
+      - [Derivative of the inverse function](#derivative-of-the-inverse-function)
+
+
 ## Lecture notes
 
 [MA259full2223.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11159707/MA259full2223.pdf)
@@ -268,4 +321,23 @@ In week 9's example sheet, there are few theorems we should be aware of
 
 #### Gradient Fields
 
-* ***Fundamental Theorem of Calculus for a Gradient Vector Field***
+* ***Fundamental Theorem of Calculus for a Gradient Vector Field***. Give na continuously differentiable function $f:U\to\mathbb{R}$ and a curve $C_{pq}\subset U$ from $p$ to $q$ parameterised by a continuously differentiable path $r:[a,b]\to U$ (in particular, $r(a) = p$, $r(b) = q$), we have $$\int_{C_{pq}}\nabla f\cdot\mathrm{d}r = f(q) - f(p).$$
+
+#### Conservative Vector Fields
+
+* Let $\underline{v}$ be a vector field which, as for a gradient field, has the property that $$\oint_{C}\underline{v}\cdot\mathrm{d}r = 0,$$ for all closed curves $C$. The vector field $\underline{v}$ is then called ***conservative***.
+* A ***continuous vector field*** $\underline{v}: U\to\mathbb{R}^{n}$ is ***conservative*** if and only if for all $p,q\in U$, $$\int_{C_{pq}}\underline{v}\cdot\mathrm{d}r$$ is independent of choice of curve $C_{pq}$ from $p$ to $q$ in $U$.
+
+#### Scalar potential of a conservative vector field
+
+* If $\underline{v} = \nabla f$, then $f$ is called a ***scalar potential*** of $\underline{v}$.
+
+#### Laplacian and Harmonic Functions
+
+* Consider a vector field $\underline{v}$ that is both divergence-free and conservative and let $f$ be its scalar potential. Then $f$ satisfies the second order partial differential equation $\Delta f = 0$, where $$\Delta f = \nabla\cdot(\nabla f) = \sum_{i=1}^{n} \frac{\partial^{2}f}{\partial x_{i}^{2}}.$$
+* The second order partial differential operator $$\Delta = \frac{\partial^{2}}{\partial x_{1}^{2}} + ... + \frac{\partial^{2}}{\partial x_{n}^{2}}$$ is called the ***Laplacian***. 
+* For $f\in C^{2}(U)$, the equation $\Delta f = 0$ is called ***Laplace's equation*** and its solutions are called ***harmonic*** functions.
+
+#### Derivative of the inverse function
+
+* Suppose that $\Psi:U\to V$ is a bijection which is differentiable at $x\in U$. Suppose further that $\Psi^{-1}$ is differentiable at $y = \Psi(x)\in V$. Then $D\Psi(x)$ and $D\Psi^{-1}(y)$ are both ***invertible*** and $$D(\Psi^{-1})(y) = (D\Psi(\Psi^{-1}(y)))^{-1}.$$
