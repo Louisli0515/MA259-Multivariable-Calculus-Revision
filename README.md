@@ -259,3 +259,13 @@ A $2\times 2$ symmetric matrix $P$ is
 * ***negative definite*** if $\det(P) > 0$ and $a < 0$ or $c < 0$.
 * ***indefinite*** if $\det(P) < 0.$
 * ***semidefinite*** if $\det(P) = 0.$
+
+### Week 9
+
+[MA259_Multivariable_Calculus_week_9.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11212103/MA259_Multivariable_Calculus_week_9.pdf)
+
+In week 9's example sheet, there are few theorems we should be aware of 
+
+#### Gradient Fields
+
+* ***Fundamental Theorem of Calculus for a Gradient Vector Field***
