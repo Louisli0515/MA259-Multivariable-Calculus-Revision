@@ -253,12 +253,14 @@ In week 6's example sheet, we mainly focus on differentiation and integration.
 
 ### Week 7
 
+[MA259_Multivariable_Calculus_week_7.pdf](https://github.com/Louisli0515/MA259-Multivariable-Calculus-Revision/files/11220512/MA259_Multivariable_Calculus_week_7.pdf)
+
 In week 7's example sheet, there are more revision we should look at.
 
 #### Curl and Green's Theorem
 
 * The ***curl*** of a planar vector field $\underline{v}(x,y)\to(a(x,y),b(x,y)):U\to\mathbb{R}^{2}$ is defined to be the function $$\frac{\partial b}{\partial x}-\frac{\partial a}{\partial y}$$ and it is denoted by $\text{curl}\underline{v}$.
-* Let $\Omega$ be a region in $\mathbb{R}^{2}$. A regular parametersiation $r:[a,b]\to\mathbb{R}^{2}$ of $\partial\Omega$ is ***positively oriented*** if $t_{+} = \frac{r'}{\left|r'\right|}$ is a positively oriented unit tangent vector to $\partial\Omega$ at $r(t)$.
+* Let $\Omega$ be a region in $\mathbb{R}^{2}$. A regular parametersiation $r:[a,b]\to\mathbb{R}^{2}$ of $\partial\Omega$ is ***positively oriented*** if $t_{+} = \frac{r'}{\left|r'\right|}$ is a positively oriented unit tangent vector to $\partial\Omega$ at $r(t)$. Note that when calculating the integral of Green's theorem, do not forget $\mathrm{d}s = \frac{\mathrm{d}s}{\mathrm{d}t}\mathrm{d}t = \left|r'(t)\right|$, so the denominator in $t_{+}$ cancels out.
 * Let $\Omega$ be a region in $\mathbb{R}^{2}$ and let $\underline{v}:U\to\mathbb{R}^{2}$ be a ***continuously differentiable planar vector field*** on $U$, which contains $\bar{\Omega} = \Omega\cup\partial\Omega$. Then $$\iint_{\Omega}\text{curl}\underline{v}(x,y)\mathrm{d}A = \oint_{\partial\Omega}\underline{v}\cdot t_{+}\mathrm{d}s = \oint_{\partial\Omega}\underline{v}\cdot\mathrm{d}r.$$
 
 #### Divergence
