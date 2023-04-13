@@ -55,7 +55,6 @@ This repository will mainly focus on two parts, support class questions and past
       - [Laplacian and Harmonic Functions](#laplacian-and-harmonic-functions)
       - [Derivative of the inverse function](#derivative-of-the-inverse-function)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## Lecture notes
