@@ -3,6 +3,7 @@ My own notes and revisions about MA259, including example sheets and past papars
 
 This repository will mainly focus on two parts, support class questions and past papers. I will provide the pdf made by myself so there will not be any problems about license.
 
+
 - [MA259-Multivariable-Calculus-Revision](#ma259-multivariable-calculus-revision)
   * [Lecture notes](#lecture-notes)
   * [Example sheets](#example-sheets)
@@ -47,6 +48,7 @@ This repository will mainly focus on two parts, support class questions and past
       - [Critical points, local maxima nad minima, saddles](#critical-points--local-maxima-nad-minima--saddles)
       - [Some linear algebra about symmetric matrices](#some-linear-algebra-about-symmetric-matrices)
       - [Second order derivative test](#second-order-derivative-test)
+      - [Another way for second order derivative test](#another-way-for-second-order-derivative-test)
       - [Definitiveness test for $2\times 2$ symmetric matrices](#definitiveness-test-for--2-times-2--symmetric-matrices)
     + [Week 9](#week-9)
       - [Gradient Fields](#gradient-fields)
@@ -54,6 +56,7 @@ This repository will mainly focus on two parts, support class questions and past
       - [Scalar potential of a conservative vector field](#scalar-potential-of-a-conservative-vector-field)
       - [Laplacian and Harmonic Functions](#laplacian-and-harmonic-functions)
       - [Derivative of the inverse function](#derivative-of-the-inverse-function)
+      - [Implicit Function Theorem](#implicit-function-theorem)
 
 
 
