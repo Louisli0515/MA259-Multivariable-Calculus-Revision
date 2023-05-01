@@ -308,6 +308,15 @@ Suppose that $f\in C^{2}(U)$ and that $\nabla f(p) = 0$ for some $p\in U$.
 * If Hess $f(p)$ is ***indefinite***, then $f$ has neither a ***local minimum nor a local maximum*** at $p$ and $p$ is called a saddle point.
 * If Hess $f(p)$ is ***positive or negative semidefinite but not definite*** then the test is inconclusive, i.e. $f$ may have a ***minimum*** at $p$, or a ***maximum*** or a ***saddle point***.
 
+#### Another way for second order derivative test
+
+Compute the Hessain matrix and define D = det(H).
+
+* If $D > 0$ and $f_{xx} > 0$ at $(a,b)$, then $(a,b)$ is a local minimum.
+* If $D > 0$ and $f_{xx} < 0$ at $(a,b)$, then $(a,b)$ is a local maxima.
+* If $D < 0$, then $(a,b)$ is a saddle point.
+* If $D = 0$, then the test is inconclusive.
+
 #### Definitiveness test for $2\times 2$ symmetric matrices
 
 A $2\times 2$ symmetric matrix $P$ is 
@@ -345,3 +354,9 @@ In week 9's example sheet, there are few theorems we should be aware of
 #### Derivative of the inverse function
 
 * Suppose that $\Psi:U\to V$ is a bijection which is differentiable at $x\in U$. Suppose further that $\Psi^{-1}$ is differentiable at $y = \Psi(x)\in V$. Then $D\Psi(x)$ and $D\Psi^{-1}(y)$ are both ***invertible*** and $$D(\Psi^{-1})(y) = (D\Psi(\Psi^{-1}(y)))^{-1}.$$
+
+#### Implicit Function Theorem
+
+* Let $U$ be an open subset of $\mathbb{R}^{n+l}$ and $c\in\mathbb{R}^{l}$. Suppose that $F\in C^{1}(U,\mathbb{R}^{l})$ and that the equation $F(x,y) = c$ has a solution $(x_{0},y_{0})\in U$ such that $\det(\partial_{y}F(x_{0},y_{0})\ne 0$. Then there exists an open set $\mathcal{N}_ {x_{0}}$ and $g\in C^{1}(\mathcal{N}_ {x_{0}},\mathbb{R}^{l})$ such that:
+* $x_{0}\in\mathcal{N}_ {x_{0}}, g(x_{0}) = y_{0}, \set{(x,g(x)):x\in\mathcal{N}_ {x_{0}}}\subset U$ and $F(x,g(x)) = c, \forall x\in\mathcal{N}_ {x_{0}}.$
+* Furthermore, $\partial_{y} F(x,g(x))$ is invertible $\forall x\in\mathcal{N}_ {x_{0}}$ and $$\partial g(x) = -(\partial_{y}F(x,g(x)))^{-1}\cdot\partial_{x}F(x,g(x)),\forall x\in\mathcal{N}_ {x_{0}}.$$
